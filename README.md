@@ -1,5 +1,6 @@
 # rubisco_co_occurrence_gh
 Pipeline to dowload, align, and analyze rubisco isoform sequences for phylogeny and metabolic marker co-occurrence analysis. 
+(See "working" branch for code).
 
 Pipeline includes R scripts, python notebooks, CIPRES portal, and three published softwares by external developers: BOOSTER, Tree2Fasta, and OxyPhen.
 
