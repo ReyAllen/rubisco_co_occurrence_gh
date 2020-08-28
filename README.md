@@ -1,12 +1,12 @@
 # rubisco_co_occurrence_gh
 Pipeline to dowload, align, and analyze rubisco isoform sequences for phylogeny and metabolic marker co-occurrence analysis. 
 
-Pipeline includes R scripts, python notebooks, CIPRES portal, and three published softwares by external developers: BOOSTER, Tree2Fasta, and OxyPhen.
+Pipeline includes R scripts, Python notebooks, the CIPRES portal, and code previously published by external developers: BOOSTER, Tree2Fasta, and OxyPhen.
 
 PIPELINE OUTLINE:
 
 - Python notebook to download UniprotKB sequences:	"2019_4_5_Download_uniprot_API_with_phylum_and_class_and_fragment_rubisco.ipynb"
-- R script to process RubisCO seq download: 		"2019_2_25_Process_Avi_uniprotKB_downloads.R"
+- R script to process RuBisCO seq download: 		"2019_2_25_Process_Avi_uniprotKB_downloads.R"
 - R script to screen out incomplete sequences, etc:	"2019_3_21_scraping_out_environmentals_from_rubisco_lg_csv.R"
 - CIPRES portal to creat alignment and tree of RuBisCO sequences: http://www.phylo.org/
 - Calculate transfer bootstrapping of tree using BOOSTER: https://booster.pasteur.fr/
